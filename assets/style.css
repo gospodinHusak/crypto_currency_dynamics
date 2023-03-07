@@ -1,0 +1,49 @@
+.page-body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.filters {
+    height: 100vh;
+    width: 400px;
+    background-color: #222;
+}
+
+.graph-window {
+    width: calc(100vw - 400px);
+    margin: 15vh 2vw auto 2vw;
+}
+
+.currency-filter {
+    margin: 25vh 1vw 1vh 1vw;
+}
+
+.graph {
+    border: 2px solid #EBEBF5;
+    border-radius: 3px;
+    height: 60vh;
+}
+
+
+.date-filters {
+    margin: 1vh 1vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.date-from {
+    margin-right: 5px;
+}
+
+.date-to {
+    margin-left: 5px;
+}
+
+#apply-filters-button {
+  margin: 1vh 1vw;
+  width: calc(100% - 2vw);
+}
